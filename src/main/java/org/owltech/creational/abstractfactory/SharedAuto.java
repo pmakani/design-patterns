@@ -1,17 +1,19 @@
-package org.owltech.creational.abstractfactory.vehicle;
+package org.owltech.creational.abstractfactory;
 
-public class MicroCar extends Car {
-    public MicroCar() {
+public class SharedAuto extends Auto {
+
+    public SharedAuto() {
     }
+
 
     @Override
     public void setVehicleType() {
-        this.carType = "Micro";
+        this.shareType = "Shared";
     }
 
     @Override
     public void setBaseCost() {
-        this.baseCost = 50;
+        this.baseCost = 0;
     }
 
     @Override

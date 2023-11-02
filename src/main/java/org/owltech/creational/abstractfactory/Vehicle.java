@@ -1,4 +1,4 @@
-package org.owltech.creational.abstractfactory.vehicle;
+package org.owltech.creational.abstractfactory;
 
 public interface Vehicle {
     void book(int distance);

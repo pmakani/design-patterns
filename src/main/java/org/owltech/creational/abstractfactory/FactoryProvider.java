@@ -1,4 +1,4 @@
-package org.owltech.creational.abstractfactory.vehicle;
+package org.owltech.creational.abstractfactory;
 
 public final class FactoryProvider {
     public static AbstractVehicleFactory getVehicleFactory(String type) {
